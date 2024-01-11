@@ -1,0 +1,534 @@
+/* My app*/
+
+body{
+    font-family: 'Montserrat', sans-serif; 
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    background: transparent;
+    border: none;
+    align-items: center;
+    padding: 20px 10px;
+    border-radius: 200px;
+    background: #CCCCFF;
+    color:#fff;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+/* #mobile-menu{
+    display: none;
+
+ }*/
+
+/*helpers*/
+
+
+.d-flex {
+    display: flex;
+  }
+  
+  .flex-items-start {
+    align-items: flex-start;
+  }
+  
+  .flex-items-end {
+    align-items: flex-end;
+  }
+  
+  .flex-items-center {
+    align-items: center;
+  }
+  
+  .flex-items-baseline {
+    align-items: baseline;
+  }
+  
+  .flex-items-stretch {
+    align-items: stretch;
+  }
+  
+  .flex-justify-start {
+    justify-content: flex-start;
+  }
+  
+  .flex-justify-end {
+    justify-content: flex-end;
+  }
+  
+  .flex-justify-center {
+    justify-content: center;
+  }
+  
+  .flex-justify-between {
+    justify-content: space-between;
+  }
+  
+  .flex-justify-around {
+    justify-content: space-around;
+  }
+  
+  .flex-row {
+    flex-direction: row;
+  }
+  
+  .flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .flex-column-reverse {
+    flex-direction: column-reverse;
+  }
+
+.app-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+
+}
+
+/* sidebar style*/
+
+.sidebar{
+    background-color: #CCCCFF;
+}
+
+.sidebar-image{
+    margin-top: 40px;
+    border-radius: 200px;
+    justify-content: center;
+}
+
+.contacts-container{
+    padding-left: 40px;
+}
+
+.contacts-header{
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contacts-item{
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.contacts-phone{
+    color: #660033;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.contacts-email{
+    color: #660033;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 10px;
+    
+}
+
+.contacts-linkedin{
+    color: #660033;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 10px;
+    
+}
+
+.contacts-element{
+    margin-top: -12px;
+}
+
+.tech-skills{
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.tech-skills-header{
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: -40px; 
+}
+
+.tech-skills-list{
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-top: -10px;
+    margin-left: -60px;  
+}
+
+.soft-skills{
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.soft-skills-header{
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: -40px;   
+}
+
+.soft-skills-list{
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-top: -10px;
+    margin-left: -60px;  
+}
+
+.language-skills{
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.english-language{
+margin-top:-10px;
+margin-left: -40px;
+}
+
+.language-skills-header{
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: -40px;   
+}
+
+.language-skills-list{
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-top: -10px;
+    margin-left: -60px;  
+}
+
+.hobby-uri{
+    padding-left: 40px;
+    margin-top: 40px;
+    
+}
+
+.hobby-uri-header{
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-left: -40px;  
+}
+
+.hobby-uri-list{
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-top: -10px;
+    margin-left: -60px;  
+}
+
+.permis{
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.permis-header{
+    color: #161D2A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-left: -40px;  
+}
+
+.permis-list{
+    color: #161D2A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-top: -10px;
+    margin-left: -40px;  
+}
+
+
+/*main content style*/
+.right-side-container{
+    padding-left: 88px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 180px;
+}
+
+.about-me-profession{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-me-name{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -10px;  
+}
+
+.about-me-description{
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -10px;  
+}
+
+.projects{
+    margin-top: 40px;
+}
+
+.projects-header{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.projects-list{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+.project-name{
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;  
+}
+
+.project-info{
+    font-weight: 400;
+}
+
+.work-experience{
+    margin-top: 40px;
+}
+
+.work-experience-header{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.company-name{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.company-info{
+    color: #6096ff;
+    margin-left: 10px;
+}
+
+.company-time{
+    color: #a8a8a8; 
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+}
+
+.company-elements-list{
+    color: #595959; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: -15px;
+   
+}
+
+.company-container{
+    margin-top: -10px;
+}
+
+.extracurricular-activities{
+    margin-top: 40px;
+}
+
+.extracurricular-activities-header{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.extracurricular-activities-name{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.extracurricular-activities-job{
+    color: #6096ff;
+  
+}
+
+.extracurricular-activities-time{
+    color: #a8a8a8; 
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.education{
+    margin-top: 40px;
+}
+
+.education-header{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+}
+
+.education-name{
+    color: #6096ff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.education-info{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-top: -10px;  
+}
+
+.education-time{
+    color: #a8a8a8; 
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+.education-element{
+    margin-top:-10px;
+}
+
+
+/*mobile menu*/
+.mobile-menu{
+    display:none;
+}
+
+@media screen and (max-width: 768px){
+
+    body{
+        flex-flow: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .app-wrapper {
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+        
+      }
+
+      .sidebar {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .sidebar-image{
+        justify-content: center;
+        margin-top:20px;
+        margin-bottom: 40px;
+      }
+
+      .right-side-container {
+        width: 100%;
+        padding: 0 !important;
+        margin-left: 5px;
+        margin-right: 5px;
+
+      }
+
+
+    /*mobile menu*/
+    .mobile-menu{
+        display: block;
+        background: transparent;
+        border: none;
+        margin: 0;
+        cursor: pointer;
+        width: 40px;
+    }
+
+
+    .sidebar #mobile-menu:not(:checked) ~ .sidebar-container{
+        display: none;
+
+      
+    }
+ 
+}
+    
